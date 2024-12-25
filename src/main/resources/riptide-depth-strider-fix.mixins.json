@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "nl.thijmer.riptide_depth_strider_fix",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

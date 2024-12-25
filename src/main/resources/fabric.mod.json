@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "riptide-depth-strider-fix",
+	"version": "${version}",
+	"name": "Riptide depth strider fix",
+	"description": "This mod fixes the bug where riptiding through water with depth strider on generates immense drag.",
+	"authors": [
+		"Thijmer"
+	],
+	"contact": {
+		"email": "thijmen@cumallover.me"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/riptide-depth-strider-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [],
+		"client": []
+	},
+	"mixins": [
+		"riptide-depth-strider-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21"
+	}
+}
