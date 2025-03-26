@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public class LivingEntityMixin {
     @Shadow protected int riptideTicks;
 
-    // Inject this function at the right point in the travelInFluid function.
+    // Inject this function at the point specified in the smart person's comment on the bug report: https://bugs.mojang.com/browse/MC-136249
     @ModifyVariable(
             method = "travelInFluid(Lnet/minecraft/util/math/Vec3d;)V",
             at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;getMovementSpeed()F"),
