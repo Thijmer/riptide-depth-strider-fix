@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"riptide-strider-fix" {
+		"riptide-depth-strider-fix" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
